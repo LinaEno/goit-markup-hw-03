@@ -28,6 +28,7 @@ body {
   font-size: 14px;
   background-color: var(--white-color);
   color: var(--first-text-color);
+  margin: 0;
 }
 
 .container {
