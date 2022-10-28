@@ -30,6 +30,10 @@ body {
   color: var(--first-text-color);
 }
 
+.container {
+  margin: 0 auto;
+}
+
 .head-menu {
   width: 100%;
 }
