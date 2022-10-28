@@ -1,3 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing:inherit;
+}
+
+
+
 :root {
   --first-text-color: #757575;
   --second-text-color: #212121;
@@ -12,7 +24,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   background-color: var(--white-color);
   color: var(--first-text-color);
@@ -42,7 +54,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--black-color);
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.2;
 }
 
