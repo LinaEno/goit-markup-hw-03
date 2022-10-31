@@ -36,7 +36,6 @@ body {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -49,6 +48,7 @@ body {
   display: flex;
   padding: 0;
   margin: 0;
+  margin-left: auto;
   list-style: none;
 }
 
@@ -221,7 +221,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.ads + .ads {
+.li-footer:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -331,6 +331,7 @@ body {
 .our-quality-text {
   margin-top: 0;
   margin-bottom: 0;
+  line-height: 1.7;
 }
 
 .team-sec {
@@ -341,9 +342,15 @@ body {
   padding-top: 0;
 }
 
+.work-sec-img, .team-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .title-team {
   margin-top: 0;
-  margin-bottom: 50;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   text-align: center;
@@ -359,9 +366,13 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.about-team {
+  padding: 30px 0;
+}
+
 .name {
   margin-bottom: 10px;
-  margin-top: 30px;
+  margin-top: 0;
   font-weight: 500;
   font-size: 16px;
   text-align: center;
@@ -372,7 +383,7 @@ body {
 
 .specialty {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.03em;
